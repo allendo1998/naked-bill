@@ -35,8 +35,14 @@ export default function Receipt({ bills, payAmount, payFreq, payVisible }: Props
         <span className={styles.chevron} aria-hidden="true">›</span>
       </button>
 
+      {/* Dark printer slot */}
+      <div className={`${styles.printerSlot} ${open ? styles.printerSlotVisible : ''}`} aria-hidden="true">
+        <div className={styles.slotLine} />
+      </div>
+
+      {/* Paper feed — clips receipt top-to-bottom */}
       <div className={`${styles.wrapper} ${open ? styles.wrapperOpen : ''}`} role="region">
-        <div className={`${styles.receipt} ${open ? styles.receiptOpen : ''}`} aria-live="polite">
+        <div className={styles.receipt} aria-live="polite">
           <div className={styles.perfTop} aria-hidden="true" />
           <div className={styles.inner}>
             <div className={styles.store}>
