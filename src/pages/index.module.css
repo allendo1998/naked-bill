@@ -1,0 +1,40 @@
+.header { position: sticky; top: 0; z-index: 100; background: rgba(245,245,247,0.88); backdrop-filter: saturate(180%) blur(20px); -webkit-backdrop-filter: saturate(180%) blur(20px); border-bottom: 1px solid var(--border); padding: 16px 24px 12px; }
+.headerInner { max-width: 900px; margin: 0 auto; }
+.wordmark { font-size: 11px; font-weight: 600; letter-spacing: 0.12em; color: var(--text-secondary); text-transform: uppercase; margin-bottom: 10px; }
+.totalDisplay { display: flex; align-items: flex-end; gap: 16px; flex-wrap: wrap; }
+.totalAmount { font-size: clamp(36px, 6vw, 56px); font-weight: 700; letter-spacing: -0.03em; line-height: 1; color: var(--text-primary); transition: color var(--transition); }
+.totalZero { color: var(--text-tertiary); }
+.totalSub { display: flex; flex-direction: column; gap: 2px; padding-bottom: 4px; }
+.subLine { font-size: 13px; color: var(--text-secondary); line-height: 1.4; }
+.subLine strong { color: var(--text-primary); font-weight: 500; }
+.segmentRow { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; margin-top: 12px; }
+.main { max-width: 900px; margin: 0 auto; padding: 28px 24px 60px; }
+.section { margin-top: 28px; }
+.card { background: var(--surface); border-radius: var(--radius-lg); border: 1px solid var(--border); box-shadow: var(--shadow); overflow: hidden; }
+.emptyState { padding: 56px 24px; text-align: center; }
+.emptyHeadline { font-size: 22px; font-weight: 600; color: var(--text-primary); margin-bottom: 6px; letter-spacing: -0.01em; }
+.emptySub { font-size: 15px; color: var(--text-secondary); margin-bottom: 28px; }
+.quickAdds { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 20px; }
+.quickAddChip { font-family: var(--font); font-size: 14px; font-weight: 500; color: var(--accent); background: rgba(0,113,227,0.08); border: 1px solid rgba(0,113,227,0.18); border-radius: 20px; padding: 7px 16px; cursor: pointer; transition: background var(--transition), transform var(--transition); }
+.quickAddChip:hover { background: rgba(0,113,227,0.14); transform: scale(1.02); }
+.quickAddChip:active { transform: scale(0.98); }
+.billList { list-style: none; }
+.addBillWrap { border-top: 1px solid var(--border); }
+.addBillBtn { font-family: var(--font); font-size: 15px; font-weight: 500; color: var(--accent); background: none; border: none; cursor: pointer; padding: 14px 16px; width: 100%; text-align: left; transition: background var(--transition); }
+.addBillBtn:hover { background: rgba(0,113,227,0.04); }
+.actionsRow { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 32px; }
+.actionBtn { font-family: var(--font); font-size: 15px; font-weight: 500; border: none; border-radius: var(--radius-sm); padding: 11px 20px; cursor: pointer; transition: background var(--transition), transform var(--transition); }
+.actionBtn:active { transform: scale(0.98); }
+.btnPrimary { background: var(--accent); color: white; }
+.btnPrimary:hover { background: var(--accent-hover); }
+.btnSecondary { background: rgba(0,0,0,0.06); color: var(--text-primary); }
+.btnSecondary:hover { background: rgba(0,0,0,0.10); }
+.footer { text-align: center; padding: 0 24px 40px; font-size: 12px; color: var(--text-tertiary); letter-spacing: 0.01em; }
+@media (max-width: 600px) {
+  .header { padding: 12px 16px 10px; }
+  .main { padding: 20px 16px 60px; }
+  .totalAmount { font-size: 36px; }
+  .actionsRow { flex-direction: column; }
+  .actionBtn { text-align: center; }
+  .segmentRow { flex-direction: column; align-items: flex-start; }
+}

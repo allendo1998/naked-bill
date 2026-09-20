@@ -1,0 +1,64 @@
+.row {
+  display: grid;
+  grid-template-columns: 1fr 110px 130px 36px;
+  align-items: stretch;
+  border-bottom: 1px solid var(--border);
+  transition: background var(--transition);
+}
+.row:last-child { border-bottom: none; }
+.row:hover { background: #FAFAFA; }
+.cell { display: flex; align-items: stretch; }
+.nameCell   { border-right: 1px solid var(--border); }
+.amountCell { border-right: 1px solid var(--border); position: relative; align-items: center; }
+.freqCell   { border-right: 1px solid var(--border); position: relative; align-items: center; }
+.deleteCell { justify-content: center; align-items: center; }
+.input {
+  font-family: var(--font);
+  font-size: 15px;
+  color: var(--text-primary);
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  width: 100%;
+  height: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+}
+.input::placeholder { color: var(--text-tertiary); }
+.currencySym {
+  position: absolute;
+  left: 14px;
+  font-size: 15px;
+  color: var(--text-secondary);
+  pointer-events: none;
+  user-select: none;
+}
+.amountInput { padding-left: 26px; }
+.freqSelect { cursor: pointer; padding-right: 28px; color: var(--text-secondary); font-size: 13px; font-weight: 500; }
+.freqArrow { position: absolute; right: 10px; pointer-events: none; color: var(--text-tertiary); font-size: 10px; }
+.deleteBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-tertiary);
+  font-size: 18px;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color var(--transition), background var(--transition);
+  line-height: 1;
+  font-family: var(--font);
+}
+.deleteBtn:hover { color: #FF3B30; background: rgba(255,59,48,0.08); }
+.srOnly { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; }
+@media (max-width: 600px) {
+  .row { grid-template-columns: 1fr 90px 36px; grid-template-rows: auto auto; }
+  .nameCell   { grid-column: 1; grid-row: 1; border-bottom: 1px solid var(--border); }
+  .amountCell { grid-column: 2; grid-row: 1; border-right: none; border-bottom: 1px solid var(--border); }
+  .deleteCell { grid-column: 3; grid-row: 1; border-bottom: 1px solid var(--border); }
+  .freqCell   { grid-column: 1 / -1; grid-row: 2; border-right: none; }
+}

@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F5F5F7"/>
+      <stop offset="100%" stop-color="#E8E8ED"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="24" flood-color="rgba(0,0,0,0.12)"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Receipt card -->
+  <rect x="380" y="60" width="440" height="510" rx="4" fill="#FAFAF8" stroke="rgba(0,0,0,0.10)" stroke-width="1" filter="url(#shadow)"/>
+
+  <!-- Perf top -->
+  <rect x="380" y="60" width="440" height="12" fill="#FAFAF8" rx="4"/>
+  <line x1="380" y1="72" x2="820" y2="72" stroke="rgba(0,0,0,0.12)" stroke-width="1" stroke-dasharray="5,5"/>
+
+  <!-- Perf circles top -->
+  <circle cx="390" cy="66" r="6" fill="#F5F5F7"/>
+  <circle cx="410" cy="66" r="6" fill="#F5F5F7"/>
+  <circle cx="430" cy="66" r="6" fill="#F5F5F7"/>
+  <circle cx="450" cy="66" r="6" fill="#F5F5F7"/>
+  <circle cx="470" cy="66" r="6" fill="#F5F5F7"/>
+  <circle cx="490" cy="66" r="6" fill="#F5F5F7"/>
+  <circle cx="510" cy="66" r="6" fill="#F5F5F7"/>
+  <circle cx="530" cy="66" r="6" fill="#F5F5F7"/>
+  <circle cx="550" cy="66" r="6" fill="#F5F5F7"/>
+  <circle cx="570" cy="66" r="6" fill="#F5F5F7"/>
+  <circle cx="590" cy="66" r="6" fill="#F5F5F7"/>
+  <circle cx="610" cy="66" r="6" fill="#F5F5F7"/>
+  <circle cx="630" cy="66" r="6" fill="#F5F5F7"/>
+  <circle cx="650" cy="66" r="6" fill="#F5F5F7"/>
+  <circle cx="670" cy="66" r="6" fill="#F5F5F7"/>
+  <circle cx="690" cy="66" r="6" fill="#F5F5F7"/>
+  <circle cx="710" cy="66" r="6" fill="#F5F5F7"/>
+  <circle cx="730" cy="66" r="6" fill="#F5F5F7"/>
+  <circle cx="750" cy="66" r="6" fill="#F5F5F7"/>
+  <circle cx="770" cy="66" r="6" fill="#F5F5F7"/>
+  <circle cx="790" cy="66" r="6" fill="#F5F5F7"/>
+  <circle cx="810" cy="66" r="6" fill="#F5F5F7"/>
+
+  <!-- Store name -->
+  <text x="600" y="118" text-anchor="middle" font-family="'Courier New', monospace" font-size="22" font-weight="bold" letter-spacing="8" fill="#1D1D1F">NAKED BILL</text>
+  <text x="600" y="138" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" letter-spacing="3" fill="#86868B">YOUR LIFE, ITEMISED</text>
+
+  <!-- Dashed divider -->
+  <line x1="404" y1="155" x2="796" y2="155" stroke="rgba(0,0,0,0.20)" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Sample bill rows -->
+  <rect x="404" y="164" width="28" height="14" rx="2" fill="rgba(0,0,0,0.08)"/>
+  <text x="418" y="175" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" font-weight="bold" fill="#444">MO</text>
+  <text x="440" y="175" font-family="'Courier New', monospace" font-size="13" fill="#222">Rent</text>
+  <text x="796" y="175" text-anchor="end" font-family="'Courier New', monospace" font-size="13" font-weight="500" fill="#222">$18,000/yr</text>
+
+  <rect x="404" y="184" width="28" height="14" rx="2" fill="rgba(0,0,0,0.08)"/>
+  <text x="418" y="195" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" font-weight="bold" fill="#444">WK</text>
+  <text x="440" y="195" font-family="'Courier New', monospace" font-size="13" fill="#222">Groceries</text>
+  <text x="796" y="195" text-anchor="end" font-family="'Courier New', monospace" font-size="13" font-weight="500" fill="#222">$10,400/yr</text>
+
+  <rect x="404" y="204" width="28" height="14" rx="2" fill="rgba(0,0,0,0.08)"/>
+  <text x="418" y="215" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" font-weight="bold" fill="#444">MO</text>
+  <text x="440" y="215" font-family="'Courier New', monospace" font-size="13" fill="#222">Phone</text>
+  <text x="796" y="215" text-anchor="end" font-family="'Courier New', monospace" font-size="13" font-weight="500" fill="#222">$780/yr</text>
+
+  <rect x="404" y="224" width="28" height="14" rx="2" fill="rgba(0,0,0,0.08)"/>
+  <text x="418" y="235" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" font-weight="bold" fill="#444">MO</text>
+  <text x="440" y="235" font-family="'Courier New', monospace" font-size="13" fill="#222">Internet</text>
+  <text x="796" y="235" text-anchor="end" font-family="'Courier New', monospace" font-size="13" font-weight="500" fill="#222">$948/yr</text>
+
+  <rect x="404" y="244" width="28" height="14" rx="2" fill="rgba(0,0,0,0.08)"/>
+  <text x="418" y="255" text-anchor="middle" font-family="'Courier New', monospace" font-size="9" font-weight="bold" fill="#444">MO</text>
+  <text x="440" y="255" font-family="'Courier New', monospace" font-size="13" fill="#222">Gym</text>
+  <text x="796" y="255" text-anchor="end" font-family="'Courier New', monospace" font-size="13" font-weight="500" fill="#222">$588/yr</text>
+
+  <!-- Dashed divider -->
+  <line x1="404" y1="270" x2="796" y2="270" stroke="rgba(0,0,0,0.20)" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Subtotals -->
+  <text x="404" y="288" font-family="'Courier New', monospace" font-size="12" fill="#555">/ WEEKLY</text>
+  <text x="796" y="288" text-anchor="end" font-family="'Courier New', monospace" font-size="12" fill="#555">$597</text>
+
+  <text x="404" y="306" font-family="'Courier New', monospace" font-size="12" fill="#555">/ MONTHLY</text>
+  <text x="796" y="306" text-anchor="end" font-family="'Courier New', monospace" font-size="12" fill="#555">$2,560</text>
+
+  <!-- Dashed divider -->
+  <line x1="404" y1="318" x2="796" y2="318" stroke="rgba(0,0,0,0.20)" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Total -->
+  <text x="404" y="340" font-family="'Courier New', monospace" font-size="16" font-weight="bold" fill="#1D1D1F">TOTAL / YEAR</text>
+  <text x="796" y="340" text-anchor="end" font-family="'Courier New', monospace" font-size="16" font-weight="bold" fill="#1D1D1F">$30,716</text>
+
+  <!-- Barcode area -->
+  <text x="600" y="390" text-anchor="middle" font-family="'Courier New', monospace" font-size="22" letter-spacing="-2" fill="#1a1a1a">|||||||||||||||||||||||||||||||||||||||</text>
+  <text x="600" y="408" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" letter-spacing="4" fill="#86868B">003071600000</text>
+
+  <text x="600" y="430" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#aaa" font-style="italic">Add it all up. The number is the number.</text>
+  <text x="600" y="450" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" letter-spacing="2" fill="#bbb">THANK YOU FOR YOUR EXPENSES</text>
+
+  <!-- Perf bottom circles -->
+  <line x1="380" y1="556" x2="820" y2="556" stroke="rgba(0,0,0,0.12)" stroke-width="1" stroke-dasharray="5,5"/>
+  <circle cx="390" cy="562" r="6" fill="#F5F5F7"/>
+  <circle cx="410" cy="562" r="6" fill="#F5F5F7"/>
+  <circle cx="430" cy="562" r="6" fill="#F5F5F7"/>
+  <circle cx="450" cy="562" r="6" fill="#F5F5F7"/>
+  <circle cx="470" cy="562" r="6" fill="#F5F5F7"/>
+  <circle cx="490" cy="562" r="6" fill="#F5F5F7"/>
+  <circle cx="510" cy="562" r="6" fill="#F5F5F7"/>
+  <circle cx="530" cy="562" r="6" fill="#F5F5F7"/>
+  <circle cx="550" cy="562" r="6" fill="#F5F5F7"/>
+  <circle cx="570" cy="562" r="6" fill="#F5F5F7"/>
+  <circle cx="590" cy="562" r="6" fill="#F5F5F7"/>
+  <circle cx="610" cy="562" r="6" fill="#F5F5F7"/>
+  <circle cx="630" cy="562" r="6" fill="#F5F5F7"/>
+  <circle cx="650" cy="562" r="6" fill="#F5F5F7"/>
+  <circle cx="670" cy="562" r="6" fill="#F5F5F7"/>
+  <circle cx="690" cy="562" r="6" fill="#F5F5F7"/>
+  <circle cx="710" cy="562" r="6" fill="#F5F5F7"/>
+  <circle cx="730" cy="562" r="6" fill="#F5F5F7"/>
+  <circle cx="750" cy="562" r="6" fill="#F5F5F7"/>
+  <circle cx="770" cy="562" r="6" fill="#F5F5F7"/>
+  <circle cx="790" cy="562" r="6" fill="#F5F5F7"/>
+  <circle cx="810" cy="562" r="6" fill="#F5F5F7"/>
+
+  <!-- Left side wordmark -->
+  <text x="120" y="290" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="6" fill="#86868B" transform="rotate(-90, 120, 290)">NAKED BILL</text>
+
+  <!-- Left tagline -->
+  <text x="90" y="295" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="-1" fill="#1D1D1F" transform="rotate(-90, 90, 295)">What does your life cost?</text>
+</svg>
